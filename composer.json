@@ -1,0 +1,17 @@
+{
+    "name": "IT-park v.1",
+    "description": "Project v.1",
+    "license": "private",
+    "keywords": [
+        "framework"
+    ],
+    "homepage": "https://game/",
+    "autoload": {
+        "psr-0": {
+            "Game\\": "library/"
+        }
+    },
+    "require": {
+        "smarty/smarty": "3.1.*"
+    }
+}

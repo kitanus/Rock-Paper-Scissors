@@ -1,0 +1,105 @@
+main{
+    width: 775px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#eventWall{
+    width: 774px;
+}
+
+#eventWall #numberGame{
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+#eventWall #fieldGame{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 700px;
+    height: 440px;
+}
+
+#fieldGame #PC, #fieldGame #player{
+    width: 50%;
+    float: left;
+    height: 436px;
+}
+
+#PC #stroke, #player .select{
+    border: 1px solid;
+    width: 240px;
+    height: 40px;
+    margin-left: 120px;
+    background-color: white;
+    font-size: 20px;
+    outline: none;
+}
+
+#PC #stroke{
+    margin-top: 200px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+#player .select{
+    margin-left: 50px;
+    margin-top: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#player .select:hover{
+    color: white;
+    background-color: #8b8b8b;
+}
+
+#player .select:active{
+    color: white;
+    background-color: #cecece;
+}
+
+#player .select:first-child{
+    margin-top: 120px;
+}
+
+.isWin{
+    width: 240px;
+    height: 40px;
+    margin-top: 60px;
+    margin-left: 50px;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#PC .isWin{
+    margin-top: 140px;
+}
+
+#history{
+    width: 775px;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+th{
+    padding: 4px 42px;
+    border: 1px solid black;
+}
+td{
+    padding: 4px 12px;
+    border: 1px solid black;
+}
